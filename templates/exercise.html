@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% block styles %}
+<link type="text/css" rel="stylesheet" href="/static/css/exercise.css" />
+{% endblock %}
+
+{% block content %}
+  <div class="row">
+    <div class="col hero-section justify-content-center align-items-middle">
+      <div class="hero-section">
+        <img src="/static/img/splash.jpg">
+        <div class="text-overlay">
+          <!-- Feel free to change this -->
+          <h1>Move me to the left!</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- For reference. You may delete. -->
+    <div class="row row-section">
+      <div class="col">
+        <div class="section-header">
+          Sample Header
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 dev-outline">
+        Sample Column 1
+      </div>
+      <div class="col-md-6 dev-outline">
+        Sample Column 2
+      </div>
+    </div>
+
+    <!-- Add your own content below -->
+  </div>
+
+  <div class="bottom-spacer">
+  </div>
+{% endblock %}

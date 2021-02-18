@@ -1,0 +1,247 @@
+/**
+ * @file
+ * Main stylesheet file.
+ */
+
+/* -------- General Style -------- */
+#content {
+  /* background: #FEFEFE; */
+  z-index: -10;
+}
+
+.mask-bg {
+  background: #FEFEFE;
+  z-index: 1;
+}
+
+.text-pad {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.mobile-pad {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* -------- Index Style -------- */
+.hero-section {
+  position: relative;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  height: 80vh;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-section h1 {
+  font-size: 1.5rem;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+
+  width: 100%;
+
+  text-align: center;
+
+  color: #8b8b8b;
+}
+
+.hero-under-banner {
+  background-color: #f7f7f7;
+
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.row-section {
+  margin-top: 20px;
+}
+
+.page-content-container {
+  max-width: 1000px;
+}
+
+.blurb-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  text-align: center;
+  font-family: Montserrat,
+    sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.blurb-section p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.section-header {
+  font-family: Oswald, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 5px;
+
+  margin-bottom: 10px;
+}
+
+.section-content {
+  margin-top: 10px;
+}
+
+.section-content-header {
+  font-family: Oswald,
+    sans-serif;
+  color: #353538;
+  font-size: 18px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.time-span {
+  margin-top: 3px;
+
+  color: #8b8b8b;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-content-inner {
+  margin-top: 10px;
+
+  font-family: 'Open Sans',
+    sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.section-content-inner p {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.section-content-inner ul .main-li {
+  margin-top: 8px;
+}
+
+.section-content-inner ul .sub-li {
+  margin-left: 5%;
+
+  margin-top: 3px;
+}
+
+.interest-img-holder {
+  overflow: hidden;
+  height: 300px;
+}
+
+.interest-img-holder img {
+  width: 100%;
+  height: auto;
+}
+
+.award-space-bottom {
+  padding-bottom: 18px;
+}
+
+/* -------- Responsive -------- */
+
+/* Above med breakpoint */
+@media (min-width: 768px) {
+
+  /* Add your desktop CSS here */
+  .section-header {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .section-content-header {
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .time-span {
+    margin-top: 3px;
+
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .section-content-inner {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .section-content {
+    padding-left: 5%;
+  }
+
+  .mobile-pad {
+    padding-top: inherit;
+    padding-bottom: inherit;
+  }
+}
+
+
+/* -------- Footer Style -------- */
+
+.footer-container {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  background-color: #f7f7f7;
+}
+
+.contact-me-text {
+  font-family: Oswald, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.contact-icons div {
+  margin-top: 10px;
+
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-icons img {
+  height: 20px;
+}
+
+.contact-info {
+  margin-left: 15px;
+  color: #000000 !important;
+}
